@@ -1,0 +1,235 @@
+/* Importing Google font 'Muli' */
+@import url(//fonts.googleapis.com/css?family=Muli);
+
+/* Global styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif;
+}
+
+/* Paragraph styling for line spacing */
+p {
+    line-height: 1.8;
+}
+
+/* Styling for anchor tags (links) */
+a {
+    color: #12c064;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a74f;
+}
+
+/* Font styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+}
+
+/* Specific styling for h1 and h2 elements */
+h1 {
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 10px 0;
+    margin: 10px 0 20px 0;
+}
+
+h2 {
+    margin: 30px 0 20px;
+}
+
+/* Styling for ordered lists */
+ol {
+    line-height: 1.5;
+}
+
+/* Header section styling */
+#header {
+    padding: 10px 100px;
+    font-size: 14px;
+    background: #12c064;
+    color: #fff;
+    border-bottom: 4px solid #1cdf78;
+    overflow: auto;
+}
+
+/* Logo styling inside the header */
+#header .logo {
+    font-family: 'Muli', sans-serif;
+    float: left;
+    color: #f3f7cc;
+    font-size: 20px;
+    margin-right: 10%;
+}
+
+/* Menu styling inside the header */
+#header ul.menu {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#header ul.menu li {
+    float: left;
+    padding: 4px 10px;
+}
+
+/* Styling for selected menu items */
+#header ul.menu li.selected a,
+#header ul.menu li.selected a:hover {
+    color: #1b6d32;
+    font-weight: bold;
+}
+
+/* Links inside the header */
+#header a {
+    color: #f3f7cc;
+}
+
+#header a:hover {
+    color: #fff;
+}
+
+/* User section inside the header (right-aligned) */
+#header .user {
+    float: right;
+    padding-top: 4px;
+}
+
+/* Form and button styling inside the header */
+#header .user form {
+    display: inline;
+    float: right;
+}
+
+#header .user button {
+    background: none;
+    color: #f3f7cc;
+    border: none;
+    cursor: pointer;
+    float: left;
+    display: inline;
+}
+
+/* Main content area styling */
+#content {
+    padding: 30px 100px;
+}
+
+/* Form element styles */
+form {
+    overflow: auto;
+}
+
+form p {
+    width: 100%;
+    overflow: auto;
+}
+
+/* Form label styling */
+label {
+    float: left;
+    clear: both;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* Input fields and textarea styling */
+input, textarea {
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    background: #efefef;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+/* Submit button and button link styling */
+input[type=submit], a.button {
+    font-weight: bold;
+    background: #12c064;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Styling for error messages in forms */
+.errorlist {
+    color: #cc0033;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+}
+
+/* Help text styling */
+.helptext {
+    margin: 0 0 20px 0;
+    color: #aaa;
+    clear: both;
+    float: left;
+    font-size: 13px;
+}
+
+/* Messages styling */
+ul.messages {
+    margin: 10px 100px;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Success, error, info, and warning message styles */
+ul.messages li.success {
+    background: #81ce81;
+}
+
+ul.messages li.error {
+    background: #a30029;
+    color: #e9828e;
+}
+
+ul.messages li.info {
+    background: #faffae;
+}
+
+ul.messages li.warning {
+    background: #de9404;
+}
+
+/* Styling for image previews and details */
+.image-preview, .image-detail {
+    max-width: 300px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.image-likes div {
+    float: left;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+/* User-related styling */
+#people-list img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Actions styling */
+.action {
+    clear: both;
+    overflow: auto;
+}
+
+/* Styling for dates in actions */
+.action .date {
+    font-style: italic;
+    color: #ccc;
+}
